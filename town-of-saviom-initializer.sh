@@ -30,4 +30,5 @@ docker network create town-of-saviom-shared-net 2>/dev/null || true
 docker compose up --build -d
 # Da modificare una volta implementata la versione di produzione con anche l'interfaccia dentro docker
 cd ./town-of-saviom
+npm install
 npm run dev
