@@ -1,0 +1,20 @@
+name: town-of-saviom-stack
+
+# Include the sibling repositories
+include:
+  - path: login-api/docker-compose.yaml
+    #env_file: login-api/.env
+  
+  - path: lobby-api/docker-compose.yaml
+    #env_file: lobby-api/.env
+
+  - path: gameplay-api/docker-compose.yaml
+    #env_file: gameplay-api/.env
+
+  - path: stats-api/docker-compose.yaml
+    #env_file: stats-api/.env
+
+# Define the Shared Network
+networks:
+  town-of-saviom-shared-net:
+    external: true
