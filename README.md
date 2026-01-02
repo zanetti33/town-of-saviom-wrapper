@@ -8,5 +8,5 @@ Prerequisites
 To initialize
 
 ```bash
--/town-of-saviom-initializer.sh
+./town-of-saviom-initializer.sh
 ```
