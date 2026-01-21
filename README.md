@@ -1,4 +1,7 @@
 # Town of Saviom - Wrapper
+- Fabio Pedrini - 0001125592  fabio.pedrini3@studio.unibo.it
+- Lorenzo Zanetti - 0001132626 lorenzo.zanetti5@studio.unibo.it
+- Alessandro Zanzi - 0001130782 alessandro.zanzi2@studio.unibo.it
 
 ## Prerequisites
 - Bash
