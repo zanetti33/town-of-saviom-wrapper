@@ -5,6 +5,7 @@
 
 ## Prerequisites
 - Bash
+- Git
 - Docker
 - Internet Access (only for initialization)
 
