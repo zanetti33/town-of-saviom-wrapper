@@ -21,3 +21,21 @@ include:
 networks:
   town-of-saviom-shared-net:
     external: true
+
+services:
+  town-of-saviom-frontend:
+    env_file:
+      - .env
+  login-api:
+    env_file:
+      - .env
+  lobby-api:
+    env_file:
+      - .env
+  gameplay-api:
+    env_file:
+      - .env
+  stats-api:
+    env_file:
+      - .env
+  
