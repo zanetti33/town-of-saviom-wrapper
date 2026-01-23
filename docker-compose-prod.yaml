@@ -44,20 +44,16 @@ services:
   stats-api:
     env_file:
       - .env
-
-lobby-mongo: 
-  volumes:
-    - lobby-db-data:/data/db
-
-login-mongo:
-  volumes:
-    - login-db-data:/data/db
-
-gameplay-mongo:
-  volumes:
-    - gameplay-db-data:/data/db
-
-stats-mongo:
-  volumes:
-    - stats-db-data:/data/db
+  lobby-mongo: 
+    volumes:
+      - lobby-db-data:/data/db
+  login-mongo:
+    volumes:
+      - login-db-data:/data/db
+  gameplay-mongo:
+    volumes:
+      - gameplay-db-data:/data/db
+  stats-mongo:
+    volumes:
+      - stats-db-data:/data/db
   
